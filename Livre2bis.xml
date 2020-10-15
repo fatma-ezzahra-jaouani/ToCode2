@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<livre titre="livre2">
+    <auteurs>
+        <auteur nom="nom1" prenom="prenom1"/>
+        <auteur nom="nom2" prenom="prenom2"/>
+    </auteurs>
+    <sections>
+        <section titre="section1">
+            <chapitre titre="chapitre1">
+                <paragraphe>xml &lt;element id="10"&gt;&gt;&lt;/element&gt;</paragraphe>
+                <paragraphe><![CDATA[xml <element id="10">></element>]]></paragraphe>
+            </chapitre>
+            <chapitre titre="chapitre2">
+                <paragraphe>paragraphe1</paragraphe>
+                <paragraphe>paragraphe2</paragraphe>
+            </chapitre>
+        </section>
+        <section titre="section2">
+            <chapitre titre="chapitre1">
+                <paragraphe>paragraphe1</paragraphe>
+                <paragraphe>paragraphe2</paragraphe>
+            </chapitre>
+            <chapitre titre="chapitre2">
+                <paragraphe>paragraphe1</paragraphe>
+                <paragraphe>paragraphe2</paragraphe>
+            </chapitre>
+        </section>
+    </sections>
+</livre>

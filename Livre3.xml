@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ns1:livre xmlns:ns1="http://www.masociete.com" xmlns:ns2="http://www.monentreprise.com">
+    <ns1:auteurs>
+        <ns1:auteur>
+            <ns1:nom>nom1</ns1:nom>
+            <ns1:prenom>prenom1</ns1:prenom>
+        </ns1:auteur>
+        <ns1:auteur>
+            <ns1:nom>nom2</ns1:nom>
+            <ns1:prenom>prenom2</ns1:prenom>
+        </ns1:auteur>
+    </ns1:auteurs>
+    <ns1:sections>
+        <ns1:section>
+            <ns1:titre>section1</ns1:titre>
+            <ns1:chapitre>
+                <ns1:titre>chapitre1</ns1:titre>
+                <ns1:paragraphe>paragraphe1</ns1:paragraphe>
+                <ns1:paragraphe>paragraphe2</ns1:paragraphe>
+            </ns1:chapitre>
+            <ns1:chapitre>
+                <ns1:titre>chapitre2</ns1:titre>
+                <ns1:paragraphe>paragraphe1</ns1:paragraphe>
+                <ns1:paragraphe>paragraphe2</ns1:paragraphe>
+            </ns1:chapitre>
+        </ns1:section>
+        <ns2:section>
+            <ns2:titre>section2</ns2:titre>
+            <ns2:chapitre>
+                <ns2:titre>chapitre1</ns2:titre>
+                <ns2:paragraphe>paragraphe1</ns2:paragraphe>
+                <ns2:paragraphe>paragraphe2</ns2:paragraphe>
+            </ns2:chapitre>
+            <ns2:chapitre>
+                <ns2:titre>chapitre2</ns2:titre>
+                <ns2:paragraphe>paragraphe1</ns2:paragraphe>
+                <ns2:paragraphe>paragraphe2</ns2:paragraphe>
+            </ns2:chapitre>
+        </ns2:section>
+    </ns1:sections>
+</ns1:livre>
